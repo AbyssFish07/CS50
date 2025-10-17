@@ -21,10 +21,11 @@ int main(void)
 		{
 			printf(" ");
 		}
-		for (int star = 1;star <= n;star++)
+		for (int bricks = 1;bricks <= n;bricks++)
 		{
-			printf("*");
+			printf("#");
 		}
 		printf("\n");
 	}
 }
+
